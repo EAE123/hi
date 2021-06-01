@@ -80,7 +80,7 @@ scene.add(moon);
 
 // Avatar
 
-const jeffTexture = new THREE.TextureLoader().load('me.jpg');
+const jeffTexture = new THREE.TextureLoader().load('me.JPG');
 
 const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 
